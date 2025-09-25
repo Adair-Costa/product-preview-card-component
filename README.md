@@ -58,7 +58,8 @@ In this project I could improve my understanding in CSS Grid layout, Flexbox lay
     srcset="images/image-product-mobile.jpg 1x"
     media="(max-width: 35.875em)"
   />
-  <img srcset="images/image-product-desktop.jpg 2x" alt="Image product" />
+  <img src="images/image-product-desktop.jpg" alt="Image product"
+        srcset="images/image-product-desktop.jpg 2x" alt="Image product" />
 </picture>
 ```
 
