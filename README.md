@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Adair-Costa/product-preview-card-component.git)
-- Live Site URL: [Add live site URL here](https://product-preview-card-component-sigma-five.vercel.app/)
+- Solution URL: (https://github.com/Adair-Costa/product-preview-card-component.git)
+- Live Site URL: (https://product-preview-card-component-sigma-five.vercel.app/)
 
 ## My process
 
@@ -85,4 +85,4 @@ In this project I could improve my understanding in CSS Grid layout, Flexbox lay
 
 ## Author
 
-- Frontend Mentor - [Adair Costa](https://www.frontendmentor.io/profile/Adair-Costa)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/Adair-Costa)
