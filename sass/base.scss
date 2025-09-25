@@ -1,0 +1,69 @@
+// SASS VARIABLES
+// COLORS
+$primary-color-500: #3c8067;
+$primary-color-700: #1b4133;
+
+$neutral-black: #1c232b;
+$neutral-grey: #6c7289;
+$neutral-cream: #f2ebe3;
+$neutral-white: #ffffff;
+
+// FONT FAMILY
+$font-montserrat: "Montserrat", sans-serif;
+$font-fraunces: "Fraunces", serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-medium: 35.875em;
+$bp-small: 19.875em;
+
+// UNIVERSAL STYLES
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 0.875rem;
+}
+
+body {
+  font-family: $font-montserrat;
+  font-weight: 500;
+  letter-spacing: 0rem;
+  color: $neutral-grey;
+}
+
+// CONTAINER
+.container {
+  background-color: $neutral-cream;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // CONTAINER ARTICLE
+  &__article {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    grid-template-rows: 420px;
+
+    // MEDIA QUERY
+    @media only screen and (max-width: $bp-medium) {
+      & {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+      }
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      & {
+        grid-template-rows: 250px;
+      }
+    }
+  }
+}
