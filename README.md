@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./product-preview-card-component.jpg)
+![](./product-preview-card-component.png)
 
 ### Links
 
